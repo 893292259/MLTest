@@ -10,6 +10,7 @@ iris = datasets.load_iris()  # 创建iris的数据，把属性存在X，类别�
 iris_X = iris.data
 iris_y = iris.target
 
+
 print(iris_X[:4, :])  # print出来iris的属性  每个sample四个属性，描述花的花瓣的长直径等
 # print(iris_y)     # 有三个类的花0，1，2
 
